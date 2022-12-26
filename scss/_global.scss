@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    height: 100%;
+    font-size: 62.5%;
+}
+a {
+    text-decoration: none;
+}
+ul, li, ol {
+    list-style: none;
+}
+img {
+    display: flex;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: $light-bg;
+    font-size: 1.5rem;
+    line-height: 1.6;
+    color: $text-color-1;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,27 @@
+.header {
+    background-color: #6B6B6B;
+    &__container {
+        display: flex;
+        align-items: center;
+        padding: 2.5rem;
+        justify-content: space-between;
+    }
+    
+}
+.sitenav {
+    &__list {
+        display: flex;
+    }
+    &__item:not(:last-child){
+        margin-right: 4rem;
+    }
+    &__link {
+        color: $white-color;
+        font: {
+            size: 1.4rem;
+            weight: 400;
+            family: $main-font-family;
+            line-height: 1.43;
+        }
+    }
+}
